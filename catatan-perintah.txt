@@ -1,0 +1,11 @@
+rasa init = untuk membuat project rasa
+rasa train = untuk melatih rasa
+rasa shell = untuk menjalankan chatbot lokal 
+data/nlu.yml = Mendefinisikan contoh input dari pengguna.
+data/stories.yml = Mendefinisikan alur percakapan.
+domain.yml = Menentukan intents, entities, dan respons chatbot.
+actions/actions.py = Tempat untuk menambahkan logika khusus (opsional).
+rasa run = untuk menjalankan server api
+pip install rasa x rasa x = untuk antarmuka web
+rasa run actions = menjalankan actions (run terpisah diterminal)
+rasa data validate = untuk check data error

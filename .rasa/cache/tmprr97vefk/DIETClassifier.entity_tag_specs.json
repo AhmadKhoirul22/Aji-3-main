@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-expression",
+      "2": "I-expression",
+      "3": "L-expression",
+      "4": "U-expression",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-expression": 1,
+      "I-expression": 2,
+      "L-expression": 3,
+      "U-expression": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]

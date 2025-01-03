@@ -1,0 +1,54 @@
+version: "3.1"
+
+intents:
+  - sapa
+  - selamat_tinggal
+  - setuju
+  - tidak_setuju
+  - suasana_hati_baik
+  - suasana_hati_buruk
+  - tantangan_bot
+  - calculate
+  - ask_weather
+
+responses:
+  utter_sapa:
+  - text: "Halo! Bagaimana saya bisa membantu Anda hari ini?"
+
+  utter_semangat:
+  - text: "Ini sesuatu untuk menyemangati Anda:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_apakah_bantu:
+  - text: "Apakah itu membantu Anda?"
+
+  utter_bahagia:
+  - text: "Bagus, lanjutkan harimu!"
+
+  utter_selamat_tinggal:
+  - text: "Sampai jumpa! Semoga harimu menyenangkan!"
+
+  utter_saya_adalah_bot:
+  - text: "Saya adalah bot, didukung oleh Rasa."
+
+  utter_math_result:
+  - text: "Hasil dari perhitungan {result}"
+
+  utter_weather_result:
+  - text: "Cuaca di {location} saat ini adalah {description} dengan suhu {temperature}°C."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_calculate
+  - action_get_weather
+
+slots:
+  location:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: location
+

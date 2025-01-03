@@ -1,0 +1,99 @@
+version: "3.1"
+
+nlu:
+
+- intent: calculate
+  examples: |
+    - Hitung [2 + 2](expression)
+    - Berapa hasil dari [5 * 3](expression)?
+    - [10 / 2](expression)
+    - [7 - 3](expression)
+    - Tambahkan [8 + 12](expression)
+
+- intent: ask_weather
+  examples: |
+    - Bagaimana cuaca di [Jakarta](location)?
+    - Cuaca di [Bandung](location) seperti apa?
+    - Beritahu saya cuaca di [Surabaya](location).
+    - Apa cuaca di [Medan](location)?
+    - [Semarang](location) hujan atau cerah?
+    - Apa cuaca di [Karanganyar](location)?
+    - Apa cuaca di [Tawangmangu](location)?
+
+- intent: sapa
+  examples: |
+    - hai
+    - halo
+    - selamat pagi
+    - selamat malam
+    - apa kabar
+    - hai di sana
+    - selamat siang
+    - halo teman
+    - pagi
+    - malam
+    - siang
+
+- intent: selamat_tinggal
+  examples: |
+    - sampai jumpa
+    - selamat tinggal
+    - sampai nanti
+    - selamat malam
+    - dadah
+    - jumpa lagi
+    - semoga harimu menyenangkan
+    - sampai bertemu lagi
+    - sampai jumpa besok
+
+- intent: setuju
+  examples: |
+    - iya
+    - ya
+    - benar
+    - tentu saja
+    - kedengarannya bagus
+    - betul sekali
+
+- intent: tidak_setuju
+  examples: |
+    - tidak
+    - enggak
+    - tidak pernah
+    - saya rasa tidak
+    - saya tidak suka itu
+    - tidak mungkin
+    - tidak benar-benar
+
+- intent: suasana_hati_baik
+  examples: |
+    - sempurna
+    - hebat
+    - luar biasa
+    - saya merasa sangat baik
+    - saya hebat
+    - saya luar biasa
+    - saya merasa seperti pahlawan
+    - sangat bagus
+    - sangat sempurna
+    - sangat menyenangkan
+
+- intent: suasana_hati_buruk
+  examples: |
+    - hari saya buruk
+    - saya sedih
+    - saya merasa tidak enak
+    - saya kecewa
+    - sangat sedih
+    - saya sangat sedih
+    - tidak baik
+    - tidak terlalu baik
+    - sangat mengecewakan
+    - hari saya mengecewakan
+
+- intent: tantangan_bot
+  examples: |
+    - apakah kamu bot?
+    - apakah kamu manusia?
+    - apakah saya sedang berbicara dengan bot?
+    - apakah saya sedang berbicara dengan manusia?

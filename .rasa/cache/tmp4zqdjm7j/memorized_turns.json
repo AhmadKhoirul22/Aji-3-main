@@ -1,0 +1,20 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLEgsbY2FgDOZxsT": "utter_sapa",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLEgsZaAEaUlJalF8WCVOPTHAgCgeTNB": "action_listen",
+    "eJydjkEKgDAMBL+SB/iCfkUkRAlY1FiaxEvp3y3qveBtB2aXHUsdoKTMF9Ji8ZQA5Q0odHCAD/aoxtJcV87NidLQAiglqp0JN+OMj/mr37vgpCSEK1nE2bNvtU43v5xSdw==": "utter_semangat",
+    "eJydjsEJgDAQBFtJAVaQVkSOVQ4NmlOSOz/B3g3qX/G3A7PLtuVoXNkS74RBwyrelTuQILJ3DywhK0t1LXOqTpCK6l3GhuNlwlQ50WX+6r9dMGQIaIIG6i3Z/PEQR8gI/bbYnTYEciQ=": "utter_apakah_bantu",
+    "eJytj0EKgDAMBL/SB/iCfkUkrBK0qFHaxEvx7xb1roi3LMwOmzrvlctr5I3QaVjEu3wdJJjZuztMISlLYS1xLEyQEtW7hBX7g8JUOdJJfuo/TTAkCGiABmot2vhyEM+QHvqfsfwyYqAWovbO2hwdGpNg": "action_listen",
+    "eJytj0EOwjAMBL+SB/CCfAUha1ssakJNldhcovydiHIPQr15pfFq51zbKdQt84swmzw1hrofpFg5hm94SDHWznrh3BnRHi2Ggg1tUOFmnOlD/vU/muAoUNACE5o8e/pxEK/QG+y4xu6SsNAENT+idSBuckXqGuZ3b+3yBn83sCk=": "utter_selamat_tinggal",
+    "eJytj0EKwzAMBL/iB/QF+UopYtMKx7WtBlvqxeTvNU3vDiU3LayGnWvbLq6thd+Eu4aXTK7tBwkyT+4XUqjK0rtWufROkB51chUrtgHCVLnQt/nX/2iCoUJACzTQbMXiwUGcIR56HrG7RCw0Q9TOoA7ENTwQu4ba044qJ2QoaRDvkUbI2wfRh9BF": "action_listen",
+    "eJydjkEKgDAMBL+SB/iCfkUkBAkl0MbSpl5K/m5R74K3HZhddh2+wCiVT6Td5NAA4wmolDnAC0masU63N67TEZ1oARoV8o+JbsYVb/NX/+sCJ8pkaKIxUnLfLsmAUSo=": "utter_selamat_tinggal",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLEgsZaAEaUlJalF8WCVZOkn5ITUnMTcxJL4ksy89PTEHCJdg6aJsKmxAKK4cmY=": "action_listen",
+    "eJydjsEJgDAQBFtJAVaQVkSOVQ481DMkFz8hvRvUf8DfDswuO5Y6uBIiX4TF5FTvyhtIcbB3H+ySjLW5OXFsjmhD8y4hoHYmshlHesxf/d6FjAQFrTChGbLVOt1sblHl": "utter_bahagia",
+    "eJydjlEKgzAQRK+SA3iCXEVkmZTFLNptSDb9Cd69Qf1rweLfDLwZ3ti2wbWU+U14mLzUu3YEUjzZu7OsUoy1s7Vw7oxor+ZdQcJ2cVHNONNO3tpfKVQUKCjChAJk+c8nIGKWX0rff9MHyKdwbQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrinPySYqCinPzkRIj6aEM9g1igTGlxahFQIjMPqLAEqLE4O748NbEkI7WotjYWAPxIJsk=": "action_get_weather",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrinPySYqCinPzkRIj6aEM9g1igTGlxahFQIjMPqLAEqLE4O748NbEkI7Woljg70lNL4DrItSgWAP6oTeE=": "action_listen",
+    "eJytj1EKwjAQRK+SA3iCXEVkmcpiY9u1JLP+hNzdoP5HpH878PYxc67tFOqe9Sm4Mj0shvo5xLBpDN+wpkK1znrR3JlkPTKGgh1toHBSs7zJv/5HFRwFBpnBJJNnX34spBvsBh5n7FsWzDLB6EdYR8OVfvfWLi9l3q29": "utter_bahagia",
+    "eJytkVEKwzAMQ6+SA+wEucoYRimmybq6JbH3E3r3ha2fhZTRPwvkh4Tudbu5umZ+EwZNi3hXfwcJZvZuF69UlKV5rXBuniRNqncFK7YOwlQ509f5138vgqFAQBGaKFi26WQgniEj9Dpi6zIhUoCoXUHtFWe1p52LFhAxpqMBdsjjA8fNx/4=": "action_listen"
+  }
+}

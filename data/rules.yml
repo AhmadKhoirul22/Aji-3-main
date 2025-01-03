@@ -1,0 +1,13 @@
+version: "3.1"
+
+rules:
+
+- rule: Ucapkan selamat tinggal kapan saja pengguna mengucapkan selamat tinggal
+  steps:
+  - intent: selamat_tinggal
+  - action: utter_selamat_tinggal
+
+- rule: Katakan 'Saya adalah bot' kapan saja pengguna bertanya
+  steps:
+  - intent: tantangan_bot
+  - action: utter_saya_adalah_bot

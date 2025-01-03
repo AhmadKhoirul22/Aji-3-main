@@ -1,0 +1,47 @@
+version: "3.1"
+
+stories:
+
+- story: jalur bahagia
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - intent: suasana_hati_baik
+  - action: utter_bahagia
+
+- story: jalur sedih 1
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - intent: suasana_hati_buruk
+  - action: utter_semangat
+  - action: utter_apakah_bantu
+  - intent: setuju
+  - action: utter_bahagia
+
+- story: jalur sedih 2
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - intent: suasana_hati_buruk
+  - action: utter_semangat
+  - action: utter_apakah_bantu
+  - intent: tidak_setuju
+  - action: utter_selamat_tinggal
+
+- story: sapa dan selamat tinggal
+  steps:
+    - intent: sapa
+    - action: utter_sapa
+    - intent: selamat_tinggal
+    - action: utter_selamat_tinggal
+
+- story: calculate_math
+  steps:
+  - intent: calculate
+  - action: action_calculate
+
+- story: provide_weather
+  steps:
+  - intent: ask_weather
+  - action: action_get_weather

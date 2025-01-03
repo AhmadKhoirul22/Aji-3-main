@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-expression",
+      "2": "I-expression",
+      "3": "L-expression",
+      "4": "U-expression",
+      "5": "B-location",
+      "6": "I-location",
+      "7": "L-location",
+      "8": "U-location",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-expression": 1,
+      "I-expression": 2,
+      "L-expression": 3,
+      "U-expression": 4,
+      "B-location": 5,
+      "I-location": 6,
+      "L-location": 7,
+      "U-location": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]
