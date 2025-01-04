@@ -10,23 +10,24 @@ intents:
   - tantangan_bot
   - calculate
   - ask_weather
+  - give_feedback
 
 responses:
   utter_sapa:
-  - text: "Halo! Bagaimana saya bisa membantu Anda hari ini?"
+  - text: "Ada yang bisa saya bantu Tuan?"
 
   utter_semangat:
-  - text: "Ini sesuatu untuk menyemangati Anda:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "Ini ada sesuatu untuk menyemangati Tuan:"
+    image: "https://github.com/Nfdstyti18/nonaa-saranjanaa/blob/main/img/hai.jpg"
 
   utter_apakah_bantu:
-  - text: "Apakah itu membantu Anda?"
+  - text: "Apakah itu membantu Tuan?"
 
   utter_bahagia:
-  - text: "Bagus, lanjutkan harimu!"
+  - text: "Aku ikut senang mendengarnya Tuan!"
 
   utter_selamat_tinggal:
-  - text: "Sampai jumpa! Semoga harimu menyenangkan!"
+  - text: "Sampai jumpa! Semoga harimu menyenangkan Tuan!"
 
   utter_saya_adalah_bot:
   - text: "Saya adalah bot, didukung oleh Rasa."
@@ -37,6 +38,12 @@ responses:
   utter_weather_result:
   - text: "Cuaca di {location} saat ini adalah {description} dengan suhu {temperature}°C."
 
+  utter_ask_feedback:
+  - text: "Apakah respons saya membantu? Beri tahu saya apakah itu bagus atau kurang bagus."
+
+  utter_thank_feedback:
+  - text: "Terima kasih atas umpan baliknya, Tuan!"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -44,6 +51,7 @@ session_config:
 actions:
   - action_calculate
   - action_get_weather
+  - action_analyze_sentiment
 
 slots:
   location:
@@ -52,3 +60,11 @@ slots:
       - type: from_entity
         entity: location
 
+  feedback:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: feedback
+
+regex:
+  expression: '\d+(\s*[\+\-\*/]\s*\d+)+'
