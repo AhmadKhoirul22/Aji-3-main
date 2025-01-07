@@ -4,21 +4,86 @@ nlu:
 
 - intent: calculate
   examples: |
-    - Hitung [2 + 2](expression)
-    - Berapa hasil dari [5 * 3](expression)?
-    - [10 / 2](expression)
-    - [7 - 3](expression)
-    - Tambahkan [8 + 12](expression)
+    - Hitung [45 + 32 - 18](expression)
+    - Berapa hasil dari [100 / 4](expression)?
+    - [25 * 2 - 10](expression)
+    - Bisakah kamu menghitung [15 + 3 * 2](expression)?
+    - [6 * 6 + 7 / 7](expression)
+    - Hitunglah [9 + 9 - 2 * 3](expression).
+    - Saya ingin tahu hasil dari [50 - 30 / 5](expression).
+    - Berapa hasil kalkulasi ini: [12 * 4 / 3 + 5](expression)?
+    - [7 * 8 - 6 + 2](expression)
+    - Hitung hasil dari [88 / 4 - 11 + 2](expression).
+    - [3 * (5 + 2)](expression)
+    - Berapa hasil [10 * (2 + 3)](expression)?
+    - Hitungkan ekspresi berikut: [15 - (8 + 2)](expression)
+    - [20 / (2 + 3)](expression)
+    - Bisakah kamu membantu menghitung [40 / 5 + 12 - 8](expression)?
+    - Saya butuh hasil untuk [12 + 34 - 21 / 3](expression).
+    - Apa jawaban dari [5 * 5 - 10 / 2](expression)?
+    - Hitung hasil dari ekspresi ini: [(5 + 10) / 3](expression).
+    - [7 - 4 + (6 * 2)](expression)
+    - Tolong hitung [9 * (4 - 3)](expression).
+    - Hitungkan [100 / (5 + 5)](expression).
+    - Bisakah kamu menghitung [7 + (3 * 2)](expression)?
+    - Berapa [12 - (8 / 2)](expression)?
+    - [15 + 3 - 5 * (2 + 1)](expression)
+    - [25 + (18 / 3) - 10](expression)
+    - Hitungkan kalkulasi berikut: [9 * 9 - (4 + 5)](expression)
+    - Saya ingin tahu hasil [81 / 9 + (7 * 2)](expression)
+    - [36 / 6 - 4 + 8](expression)
+    - Apakah hasil dari [100 - (25 * 2)](expression) adalah benar?
+    - Hitung nilai dari [12 * 3 + 8 - 10 / 2](expression)
 
 - intent: ask_weather
   examples: |
-    - Bagaimana cuaca di [Jakarta](location)?
-    - Cuaca di [Bandung](location) seperti apa?
-    - Beritahu saya cuaca di [Surabaya](location).
-    - Apa cuaca di [Medan](location)?
-    - [Semarang](location) hujan atau cerah?
-    - Apa cuaca di [Karanganyar](location)?
-    - Apa cuaca di [Tawangmangu](location)?
+    - Apa cuaca di [Yogyakarta](location) hari ini?
+    - Bagaimana keadaan cuaca di [Makassar](location)?
+    - Tolong beritahu saya cuaca di [Bali](location).
+    - [Malang](location) sekarang hujan atau cerah?
+    - Cuaca seperti apa yang sedang terjadi di [Lombok](location)?
+    - Saya ingin tahu cuaca di [Jayapura](location).
+    - Bagaimana cuaca di [Tangerang](location)?
+    - Cuaca di [Palu](location) seperti apa?
+    - Apa yang terjadi dengan cuaca di [Kalimantan](location)?
+    - Beritahu saya apakah [Banjarmasin](location) sedang hujan atau tidak.
+    - Bagaimana kondisi cuaca di [Depok](location)?
+    - Apakah [Surabaya](location) sedang berawan?
+    - Apakah hari ini cerah di [Palembang](location)?
+    - Berapa suhu di [Semarang](location)?
+    - Tolong cekkan cuaca untuk [Batam](location).
+    - Bagaimana cuaca di [Aceh](location) pagi ini?
+    - Apakah cuaca di [Bogor](location) sedang cerah?
+    - Saya butuh informasi tentang cuaca di [Bandar Lampung](location).
+    - [Riau](location) sekarang bagaimana cuacanya?
+    - Beritahu saya apakah [Bengkulu](location) cerah.
+    - Apa kondisi cuaca saat ini di [Padang](location)?
+    - [Samarinda](location) sekarang hujan atau tidak?
+    - Apa cuaca di [Balikpapan](location)?
+    - Bagaimana keadaan atmosfer di [Cirebon](location)?
+    - Apakah [Pontianak](location) sedang panas?
+    - Saya ingin tahu apakah [Manado](location) sedang berawan.
+    - Apakah hujan di [Kupang](location) sekarang?
+    - Berapa derajat suhu di [Bandung](location) siang ini?
+    - Apakah [Medan](location) ada petir?
+    - Tolong cekkan cuaca di [Pekalongan](location) untuk saya.
+    - Bagaimana keadaan cuaca di [Denpasar](location)?
+    - Apa kondisi di [Purwokerto](location)?
+    - [Probolinggo](location) bagaimana situasinya sekarang?
+    - Beritahu saya tentang cuaca di [Gresik](location).
+    - Cuaca di [Tegal](location) sekarang bagaimana?
+    - Saya ingin tahu tentang cuaca di [Karawang](location).
+    - Apakah [Madiun](location) sedang mendung?
+    - bagaimana cuaca di [Karanganyar](location)?
+    - bagaimana cuaca di [Mojogedang](location)?
+    - bagaimana cuaca di [Sragen](location)?
+    - bagaimana cuaca di [Tawangmangu](location)?
+    - Bagaimana kondisi cuaca di [Banyuwangi](location) malam ini?
+    - Berapa suhu rata-rata di [Pasuruan](location) saat ini?
+    - Apakah [Kediri](location) sedang dingin?
+    - Apakah cerah atau mendung di [Ngawi](location) pagi ini?
+    - [Mojokerto](location) sekarang seperti apa cuacanya?
+    - Saya ingin tahu cuaca terkini di [Batu](location).
 
 - intent: sapa
   examples: |
@@ -33,6 +98,15 @@ nlu:
     - pagi
     - malam
     - siang
+    - hai aji 3
+    - hai, apa kabar hari ini?
+    - halo, apa yang bisa kamu bantu?
+    - selamat sore
+    - halo, bot!
+    - hai, apa yang sedang kamu lakukan?
+    - hei, ada apa?
+    - halo dunia!
+    - selamat pagi, bagaimana harimu?
 
 - intent: selamat_tinggal
   examples: |
@@ -45,6 +119,13 @@ nlu:
     - semoga harimu menyenangkan
     - sampai bertemu lagi
     - sampai jumpa besok
+    - goodbye
+    - sampai jumpa kawan
+    - sampai ketemu lagi
+    - semoga harimu baik
+    - bye bye
+    - sampai bertemu di lain waktu
+    - selamat tinggal untuk saat ini
 
 - intent: setuju
   examples: |
@@ -54,16 +135,30 @@ nlu:
     - tentu saja
     - kedengarannya bagus
     - betul sekali
+    - baik
+    - yes
+    - tentu
+    - pasti
+    - dengan senang hati
+    - saya setuju
+    - ya, saya paham
+    - sudah pasti
 
 - intent: tidak_setuju
   examples: |
     - tidak
-    - enggak
+    - engga gitu
     - tidak pernah
     - saya rasa tidak
     - saya tidak suka itu
     - tidak mungkin
     - tidak benar-benar
+    - tidak sekarang
+    - maaf, tidak
+    - saya tidak setuju
+    - tidak yakin
+    - saya rasa itu tidak benar
+    - tidak, terima kasih
 
 - intent: suasana_hati_baik
   examples: |
@@ -77,6 +172,14 @@ nlu:
     - sangat bagus
     - sangat sempurna
     - sangat menyenangkan
+    - bahagia
+    - saya dalam suasana hati yang baik
+    - hari saya berjalan dengan sangat baik
+    - saya sangat bersemangat
+    - saya merasa sangat bahagia
+    - saya merasa luar biasa
+    - terima kasih
+    - terima kasih teman
 
 - intent: suasana_hati_buruk
   examples: |
@@ -90,6 +193,11 @@ nlu:
     - tidak terlalu baik
     - sangat mengecewakan
     - hari saya mengecewakan
+    - saya tidak bahagia
+    - semuanya terasa salah hari ini
+    - suasana hati saya buruk
+    - saya merasa stres
+    - saya merasa putus asa
 
 - intent: tantangan_bot
   examples: |
@@ -97,3 +205,29 @@ nlu:
     - apakah kamu manusia?
     - apakah saya sedang berbicara dengan bot?
     - apakah saya sedang berbicara dengan manusia?
+    - apakah kamu nyata?
+    - bisakah kamu membuktikan bahwa kamu adalah bot?
+    - apa kamu buatan manusia?
+    - apakah kamu cerdas?
+    - apakah kamu memiliki emosi?
+    - siapa yang menciptakan kamu?
+    - apakah kamu hidup?
+    - apakah kamu punya nama?
+    - apa kamu tahu segalanya?
+
+- intent: give_feedback
+  examples: |
+    - Respons ini [bagus][kurang bagus](feedback)
+    - Ini sangat [kurang bagus][bagus](feedback)
+    - Saya suka respons ini
+    - Tidak terlalu suka respons ini
+    - saya tidak suka respons ini
+    - Ini respons yang luar biasa
+    - Ini respons yang kurang relevan
+    - Saya ingin respons yang lebih baik
+    - Respons ini cukup membantu
+    - Respons ini tidak terlalu membantu
+    - Saya menyukai jawaban kamu
+    - Saya ingin jawaban yang lebih spesifik
+    - Saya merasa respons ini bisa lebih baik
+    - Respons ini terlalu umum
