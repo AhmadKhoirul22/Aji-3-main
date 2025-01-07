@@ -18,7 +18,7 @@ responses:
 
   utter_semangat:
   - text: "Ini ada sesuatu untuk menyemangati Tuan:"
-    image: "https://github.com/Nfdstyti18/nonaa-saranjanaa/blob/main/img/hai.jpg"
+    # image: "https://github.com/Nfdstyti18/nonaa-saranjanaa/blob/main/img/hai.jpg"
 
   utter_apakah_bantu:
   - text: "Apakah itu membantu Tuan?"
