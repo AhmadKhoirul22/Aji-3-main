@@ -58,7 +58,7 @@ class ActionGetWeather(Action):
         location = next(tracker.get_latest_entity_values("location"), None)
 
         if location:
-            api_key = "df55f7b31d6c4f203e9fb724fd9af49c"  # Ganti dengan API Key OpenWeatherMap Anda
+            api_key = "your api key"  # Ganti dengan API Key OpenWeatherMap Anda
             url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}&units=metric"
             response = requests.get(url)
 
