@@ -231,3 +231,47 @@ nlu:
     - Saya ingin jawaban yang lebih spesifik
     - Saya merasa respons ini bisa lebih baik
     - Respons ini terlalu umum
+
+- intent: ask_specific_info
+  examples: |
+    - Apa yang kamu tahu tentang [Python](topic)?
+    - Bisa beri informasi tentang [machine learning](topic)?
+    - Tolong jelaskan tentang [blockchain](topic).
+    - Apa itu [cloud computing](topic)?
+    - Ceritakan tentang [sistem operasi](topic).
+    - Jelaskan [kecerdasan buatan](topic).
+    - Apa penjelasan tentang [pemrograman berbasis objek](topic)?
+    - Bisakah kamu menjelaskan [database relasional](topic)?
+    - Saya ingin tahu lebih banyak tentang [deep learning](topic).
+    - Apa fungsi dari [CSS](topic)?
+    - Bagaimana cara kerja [algoritma sorting](topic)?
+    - Apa manfaat [HTML](topic)?
+    - Jelaskan kegunaan [API](topic).
+    - Saya butuh penjelasan tentang [pengembangan aplikasi web](topic).
+    - Tolong beri tahu saya tentang [RESTful API](topic).
+    - Apa itu [devops](topic)?
+    - Berikan informasi tentang [cloud computing](topic).
+    - Apa yang dimaksud dengan [SQL](topic)?
+    - Bisa beri saya detail tentang [framework Laravel](topic)?
+    - Jelaskan tentang [UI/UX design](topic).
+    - Bisa bantu saya memahami [pengembangan aplikasi mobile](topic)?
+    - Apa saja kegunaan [kotlin](topic)?
+    - Saya ingin tahu lebih dalam tentang [teknologi IoT](topic).
+    - Jelaskan apa itu [Big Data](topic).
+    - Apa penjelasan tentang [algoritma hash](topic)?
+    - Bisa ceritakan tentang [virtual reality](topic)?
+    - Apa itu [metode agile](topic)?
+    - Apa yang kamu tahu tentang [metaverse](topic)?
+    - Bisa kasih tahu tentang [sistem keamanan siber](topic)?
+    - Apa itu [programming functional](topic)?
+    - Apa yang dimaksud dengan [AI generatif](topic)?
+    - Jelaskan [manajemen proyek teknologi](topic).
+    - Apa itu [pengolahan data](topic)?
+    - Bagaimana cara kerja [cloud storage](topic)?
+    - Ceritakan tentang [robotika](topic).
+    - Apa itu [open source software](topic)?
+    - Jelaskan tentang [python framework](topic).
+    - Jelaskan konsep [kubernetes](topic).
+    - Apa kelebihan dari [java programming](topic)?
+    - Ceritakan apa yang dimaksud dengan [metode scrum](topic).
+    - Saya ingin tahu lebih banyak tentang [pengujian perangkat lunak](topic).
