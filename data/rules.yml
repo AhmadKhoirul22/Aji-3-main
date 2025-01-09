@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: tantangan_bot
   - action: utter_saya_adalah_bot
+
+- rule: Respond to specific information request
+  steps:
+  - intent: ask_specific_info
+  - action: action_search_specific_info
