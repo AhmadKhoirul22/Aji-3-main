@@ -11,6 +11,7 @@ intents:
   - calculate
   - ask_weather
   - give_feedback
+  - ask_specific_info
 
 responses:
   utter_sapa:
@@ -44,6 +45,15 @@ responses:
   utter_thank_feedback:
   - text: "Terima kasih atas umpan baliknya, Tuan!"
 
+  utter_ask_specific_info:
+  - text: "Apa yang ingin Anda ketahui tentang {topic}?"
+
+  utter_specific_info_found:
+  - text: "Berikut informasi tentang {topic}: [placeholder untuk informasi terkait]."
+
+  utter_no_info_found:
+  - text: "Maaf, saya belum memiliki informasi tentang {topic}. Anda bisa bertanya yang lain?"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -52,6 +62,12 @@ actions:
   - action_calculate
   - action_get_weather
   - action_analyze_sentiment
+  - action_search_specific_info
+
+entities:
+  - topic
+  - location
+  - feedback
 
 slots:
   location:
@@ -65,6 +81,13 @@ slots:
     mappings:
       - type: from_entity
         entity: feedback
+
+  topic:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: topic
 
 regex:
   expression: '\d+(\s*[\+\-\*/]\s*\d+)+'
