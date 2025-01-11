@@ -45,3 +45,15 @@ stories:
   steps:
   - intent: ask_weather
   - action: action_get_weather
+
+- story: feedback loop
+  steps:
+  - intent: give_feedback
+  - action: utter_thank_feedback
+
+- story: Provide specific information
+  steps:
+  - intent: ask_specific_info
+    entities:
+      - topic: "Python"
+  - action: action_search_specific_info
